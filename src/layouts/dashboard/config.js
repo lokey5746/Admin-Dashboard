@@ -36,6 +36,7 @@ export const items = [
       </SvgIcon>
     ),
   },
+
   {
     title: "Account",
     path: "/account",

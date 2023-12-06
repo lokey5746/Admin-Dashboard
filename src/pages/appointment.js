@@ -8,6 +8,7 @@ import { Layout as DashboardLayout } from "src/layouts/dashboard/layout";
 import { CustomersTable } from "src/sections/customer/customers-table";
 import { CustomersSearch } from "src/sections/customer/customers-search";
 import { applyPagination } from "src/utils/apply-pagination";
+import NextLink from "next/link";
 
 const now = new Date();
 
@@ -201,6 +202,8 @@ const Page = () => {
               </Stack>
               <div>
                 <Button
+                  component={NextLink}
+                  href="/addappointment"
                   startIcon={
                     <SvgIcon fontSize="small">
                       <PlusIcon />
