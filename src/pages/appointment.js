@@ -184,7 +184,7 @@ const Page = () => {
   return (
     <>
       <Head>
-        <title>Appointment | Devias Kit</title>
+        <title>Appointment | Himalaya Airlines</title>
       </Head>
       <Box
         component="main"
